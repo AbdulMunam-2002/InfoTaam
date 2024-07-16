@@ -43,6 +43,12 @@ function Dinner() {
             <td>Rs. 150</td>
             <td>Rs. 150</td>
           </tr>
+          <tr>
+            <td>5</td>
+            <td>Chapati</td>
+            <td>Rs. 15</td>
+            <td>Rs. 15</td>
+          </tr>
         </tbody>
       </Table>
     </div>

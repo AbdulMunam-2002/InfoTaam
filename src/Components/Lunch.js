@@ -21,33 +21,57 @@ function Lunch() {
         <tbody>
           <tr>
             <td>1</td>
-            <td>Falsa Juice</td>
+            <td>Sabzi</td>
             <td>Rs. 120</td>
             <td>Rs. 120</td>
           </tr>
           <tr>
             <td>2</td>
-            <td>Apple Juice</td>
-            <td>Rs. 150</td>
-            <td>Rs. 150</td>
+            <td>Daal/Haleem</td>
+            <td>Rs. 120</td>
+            <td>Rs. 120</td>
           </tr>
           <tr>
             <td>3</td>
-            <td>Orange Juice</td>
-            <td>Rs. 150</td>
+            <td>Chicken Quorma</td>
+            <td>Rs. 230</td>
             <td>Rs. 150</td>
           </tr>
           <tr>
             <td>4</td>
-            <td>Mango Shake</td>
+            <td>Chicken Biriyani</td>
+            <td>Rs. 230</td>
+            <td>Rs. 240</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Veg Biriyani</td>
             <td>Rs. 150</td>
             <td>Rs. 150</td>
           </tr>
           <tr>
-            <td>5</td>
-            <td>Banana Shake</td>
+            <td>6</td>
+            <td>White rice with any saalan</td>
             <td>Rs. 150</td>
             <td>Rs. 150</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Chicken shashlik with fried rice</td>
+            <td>Rs. 150</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Hotshots with Fried rice</td>
+            <td>Rs. 150</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Chapati</td>
+            <td>Rs. 15</td>
+            <td>Rs. 15</td>
           </tr>
         </tbody>
       </Table>
