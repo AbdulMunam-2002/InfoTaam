@@ -1,8 +1,21 @@
 .custom-navbar {
-    height: 100px;
+    height: 120px;
 }
   
-.custom-navbar-brand {
-    font-size: 1.5rem;
+.company-name .name-text {
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    color: inherit;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
 }
-  
+
+
+.custom-button {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

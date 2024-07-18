@@ -13,47 +13,45 @@ function Header() {
     <>
       <Navbar className="custom-navbar" bg='light'>
         <Container>
-          <Link to='/Home'>
-            <Navbar.Brand className="custom-navbar-brand">InfoTaam</Navbar.Brand>
+          <Link to='/Home' className='company-name'>
+            <Navbar.Brand className='name-text'>InfoTaam</Navbar.Brand>
           </Link>
         </Container>
       </Navbar>
       <br />
       <Container className="mt-5">
         <Row className="justify-content-center">
-          <Col xs={12} md={2} className="mb-2">
+          <Col xs={12} md={2} className="mb-2 mb-md-0">
             <Link to='/Breakfast'>
-              <Button variant="secondary" size="lg" className="w-75">
+              <Button variant="secondary" size="lg" className="w-100 custom-button">
                 Breakfast
               </Button>
             </Link>
           </Col>
-          <Col xs={12} md={2} className="mb-2">
+          <Col xs={12} md={2} className="mb-2 mb-md-0">
             <Link to='/Drinks'>
-              <Button variant="secondary" size="lg" className="w-75">
+              <Button variant="secondary" size="lg" className="w-100 custom-button">
                 Drinks
               </Button>
             </Link>
           </Col>
-          <Col xs={12} md={2} className="mb-2">
+          <Col xs={12} md={2} className="mb-2 mb-md-0">
             <Link to='/Snacks'>
-              <Button variant="secondary" size="lg" className="w-75">
+              <Button variant="secondary" size="lg" className="w-100 custom-button">
                 Snacks
               </Button>
             </Link>
           </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col xs={12} md={2} className="mb-2">
+          <Col xs={12} md={2} className="mb-2 mb-md-0">
             <Link to='/Lunch'>
-              <Button variant="secondary" size="lg" className="w-75">
+              <Button variant="secondary" size="lg" className="w-100 custom-button">
                 Lunch
               </Button>
             </Link>
           </Col>
-          <Col xs={12} md={2} className="mb-2">
+          <Col xs={12} md={2} className="mb-2 mb-md-0">
             <Link to='/Dinner'>
-              <Button variant="secondary" size="lg" className="w-75">
+              <Button variant="secondary" size="lg" className="w-100 custom-button">
                 Dinner
               </Button>
             </Link>
