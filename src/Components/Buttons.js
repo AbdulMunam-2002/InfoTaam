@@ -20,9 +20,16 @@ function Buttons() {
                 </Link>
             </Col>
             <Col xs={12} md={2} className="mb-2 mb-md-0">
-                <Link to='/Drinks'>
+                <Link to='/Lunch'>
                 <Button variant="secondary" size="lg" className="w-100 custom-button">
-                    Drinks
+                    Lunch
+                </Button>
+                </Link>
+            </Col>
+            <Col xs={12} md={2} className="mb-2 mb-md-0">
+                <Link to='/Dinner'>
+                <Button variant="secondary" size="lg" className="w-100 custom-button">
+                    Dinner
                 </Button>
                 </Link>
             </Col>
@@ -34,16 +41,9 @@ function Buttons() {
                 </Link>
             </Col>
             <Col xs={12} md={2} className="mb-2 mb-md-0">
-                <Link to='/Lunch'>
+                <Link to='/Drinks'>
                 <Button variant="secondary" size="lg" className="w-100 custom-button">
-                    Lunch
-                </Button>
-                </Link>
-            </Col>
-            <Col xs={12} md={2} className="mb-2 mb-md-0">
-                <Link to='/Dinner'>
-                <Button variant="secondary" size="lg" className="w-100 custom-button">
-                    Dinner
+                    Drinks
                 </Button>
                 </Link>
             </Col>
