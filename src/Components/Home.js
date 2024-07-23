@@ -27,7 +27,7 @@ function Home() {
         </Container>
       </Navbar>
       <Buttons/>
-      <div className='container mt-5'>
+      <div className='container mt-3'>
         <img
           src={Banner}
           alt='InfoTaam Banner'

@@ -30,13 +30,12 @@ function Header() {
           </Link>
         </Container>
       </Navbar>
-      <br />
       <Container>
         <Button
           onClick={() => setOpen(!open)}
           aria-controls="example-collapse-text"
           aria-expanded={open}
-          className="mb-3"
+          className="mt-3"
           variant="secondary"
         >
           <i className="bi bi-list toggle-icon"></i>

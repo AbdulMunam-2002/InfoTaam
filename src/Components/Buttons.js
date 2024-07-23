@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 function Buttons() {
     return (
       <>
-        <Container className="mt-5">
+        <Container className="mt-3">
             <Row className="justify-content-center">
             <Col xs={12} md={2} className="mb-2 mb-md-0">
                 <Link to='/Breakfast'>
