@@ -2,16 +2,10 @@
     height: 120px;
 }
   
-.company-name .name-text {
-    text-decoration-line: underline;
-    text-decoration-color: black;
-    text-decoration-thickness: 2px;
-    color: inherit;
-    font-weight: bold;
-    font-size: 2rem;
-    color: black;
-}
-
+.banner-image {
+    width: 100%;
+    height: auto;
+  }
 
 .custom-button {
     height: 60px;

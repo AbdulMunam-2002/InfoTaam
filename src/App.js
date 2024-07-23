@@ -11,20 +11,17 @@ import Dinner from './Components/Dinner';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path={'/'} element={<Home/>}/>
-          <Route path={'/Home'} element={<Home/>}/>
-          <Route path={'/Breakfast'} element={<Breakfast/>}/>
-          <Route path={'/Drinks'} element={<Drinks/>}/>
-          <Route path={'/Snacks'} element={<Snacks/>}/>
-          <Route path={'/Lunch'} element={<Lunch/>}/>
-          <Route path={'/Dinner'} element={<Dinner/>}/>
-        </Routes>
-      </BrowserRouter>
-      
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Home' element={<Home />} />
+        <Route path='/Breakfast' element={<Breakfast />} />
+        <Route path='/Drinks' element={<Drinks />} />
+        <Route path='/Snacks' element={<Snacks />} />
+        <Route path='/Lunch' element={<Lunch />} />
+        <Route path='/Dinner' element={<Dinner />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
