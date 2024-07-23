@@ -1,15 +1,16 @@
-.custom-navbar {
-    height: 120px;
-}
-  
 .banner-image {
     width: 100%;
     height: auto;
-  }
+}
 
 .custom-button {
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
+
+.toggle-icon {
+    color: white; /* Icon color */
+    font-size: 2.0rem; /* Adjust icon size */
+}
