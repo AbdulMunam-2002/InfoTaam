@@ -1,3 +1,12 @@
+.custom-navbar {
+    height: 120px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
 .banner-image {
     width: 100%;
     height: auto;
@@ -11,6 +20,6 @@
 }
 
 .toggle-icon {
-    color: white; /* Icon color */
-    font-size: 2.0rem; /* Adjust icon size */
+    color: white;
+    font-size: 2.0rem;
 }

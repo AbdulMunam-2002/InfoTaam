@@ -10,13 +10,13 @@ import logo from '../Assets/logo.jpg';
 import Collapse from 'react-bootstrap/Collapse';
 import Buttons from './Buttons';
 
-function Header() {
+function Header({ scrollToBreakfast, scrollToLunch, scrollToDinner, scrollToSnacks, scrollToDrinks }) {
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      <Navbar className="custom-navbar" bg='light'>
-        <Container>
+      <Navbar className="custom-navbar">
+        <Container className="d-flex justify-content-between align-items-center">
           <Link to='/Home' className='company-logo'>
             <Navbar.Brand>
               <img
@@ -28,21 +28,27 @@ function Header() {
               />
             </Navbar.Brand>
           </Link>
+          <Button
+            onClick={() => setOpen(!open)}
+            aria-controls="example-collapse-text"
+            aria-expanded={open}
+            className="mt-3"
+            variant="secondary"
+          >
+            <i className="bi bi-list toggle-icon"></i>
+          </Button>
         </Container>
       </Navbar>
       <Container>
-        <Button
-          onClick={() => setOpen(!open)}
-          aria-controls="example-collapse-text"
-          aria-expanded={open}
-          className="mt-3"
-          variant="secondary"
-        >
-          <i className="bi bi-list toggle-icon"></i>
-        </Button>
         <Collapse in={open}>
           <div id="example-collapse-text">
-            <Buttons/>
+            <Buttons 
+              scrollToBreakfast={scrollToBreakfast}
+              scrollToLunch={scrollToLunch}
+              scrollToDinner={scrollToDinner}
+              scrollToSnacks={scrollToSnacks}
+              scrollToDrinks={scrollToDrinks}
+            />
           </div>
         </Collapse>
       </Container>

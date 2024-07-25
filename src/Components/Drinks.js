@@ -1,14 +1,12 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header';
 
 function Drinks() {
   return (
     <>
-      <Header/>
       <div className='container mt-5'>
-        <h3>Drinks</h3>
+        <h1>Drinks</h1>
         <Table striped bordered hover className='text-center'>
           <thead>
             <tr>
