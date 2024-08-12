@@ -1,8 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css';
-import React, { useRef } from 'react';
-import Banner from '../Assets/banner.jpg';
-import Header from './Header';
+import React, { useRef, useEffect } from 'react';
+import HeroSection from './HeroSection';
 import Breakfast from './Breakfast';
 import Lunch from './Lunch';
 import Dinner from './Dinner';
@@ -10,6 +7,7 @@ import Snacks from './Snacks';
 import Drinks from './Drinks';
 
 function Home() {
+  const heroRef = useRef(null);
   const breakfastRef = useRef(null);
   const lunchRef = useRef(null);
   const dinnerRef = useRef(null);
@@ -17,25 +15,25 @@ function Home() {
   const drinksRef = useRef(null);
 
   const scrollToSection = (ref) => {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
+    const yOffset = -150; // Offset for the fixed navbar
+    const yPosition = ref.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: yPosition, behavior: 'smooth' });
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
-      <Header
+      <HeroSection
+        ref={heroRef}
         scrollToBreakfast={() => scrollToSection(breakfastRef)}
         scrollToLunch={() => scrollToSection(lunchRef)}
         scrollToDinner={() => scrollToSection(dinnerRef)}
         scrollToSnacks={() => scrollToSection(snacksRef)}
         scrollToDrinks={() => scrollToSection(drinksRef)}
       />
-      <div className='container mt-3'>
-        <img
-          src={Banner}
-          alt='InfoTaam Banner'
-          className='banner-image'
-        />
-      </div>
       <div ref={breakfastRef}>
         <Breakfast />
       </div>
