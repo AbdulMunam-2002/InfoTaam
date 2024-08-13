@@ -31,8 +31,8 @@ function Header({ scrollToBreakfast, scrollToLunch, scrollToDinner, scrollToSnac
             <Navbar.Brand>
               <img
                 src={logo}
-                width="120"
-                height="120"
+                width="100"
+                height="100"
                 className="d-inline-block align-top"
                 alt="InfoTaam logo"
               />
