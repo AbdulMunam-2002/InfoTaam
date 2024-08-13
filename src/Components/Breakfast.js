@@ -6,7 +6,7 @@ function Breakfast() {
   return (
     <>
       <div className='container mt-5'>
-        <h1>Breakfast</h1>
+        <h1>Breakfasts</h1>
         <Table striped bordered hover className='text-center'>
           <thead>
             <tr>
